@@ -1,0 +1,94 @@
+:root {
+  --color-primary: #1ce2e3;
+  --color-background: #282c33;
+  --color-white: #ffffff;
+  --color-gray: #abb2bf;
+}
+
+html {
+  background-color: var(--color-background);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+}
+
+#profile-picture-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#profile-picture-holder img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+#bio h1 {
+  text-align: center;
+}
+
+#bio p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#bio span {
+  color: var(--color-primary);
+}
+
+#bio #calculated-age {
+  color: var(--color-white);
+}
+
+#social-media {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 0 var(--color-primary);
+}
+
+#social-media img {
+  text-decoration: none;
+  width: 30px;
+  margin: 10px;
+}
+
+#links-holder {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#links-holder a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+#links-holder h3 {
+  margin: 0;
+  text-align: center;
+  color: var(--color-background);
+}
+
+#links-holder div {
+  width: 80vw;
+  background-color: var(--color-gray);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
