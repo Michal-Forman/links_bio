@@ -2,48 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Michal Forman Links</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="" />
-    <link rel="icon" href="assets/profile-picture.png" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Fonts -->
+    <title>Links</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Favicon NOT WORKING YET -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div id="profile-picture-holder">
-      <img
-        src="assets/profile-picture.png"
-        alt="Michal Formans Profile Picture"
-      />
+    <div id="titlesDiv">
+      <h1>MICHAL FORMAN</h1>
+      <h1>MICHAL FORMAN</h1>
+      <h1>MICHAL FORMAN</h1>
     </div>
-    <div id="bio">
-      <h1>Michal Forman</h1>
-      <p>
-        <span>Location:</span> Czech Republic, Prague
-        <br />
-        <span>Age:</span> <span id="calculated-age">...</span>
-        <br />
-        <span>Interests:</span> Programming, Data science
-      </p>
+    <div id="imgSectionContainer">
+      <img src="assets/profile_picture.png" />
+      <div id="socialsContainer">
+        <a href="https://www.facebook.com/misa.forman/"
+          ><img src="assets/facebook.svg"
+        /></a>
+        <a href="https://www.instagram.com/michal_forman_/"
+          ><img src="assets/instagram.svg"
+        /></a>
+        <a href="https://x.com/forman_michal_"><img src="assets/x.svg" /></a>
+        <a href="https://www.linkedin.com/in/michal-forman/"
+          ><img src="assets/linkedin.svg"
+        /></a>
+        <a href="https://github.com/Michal-Forman"
+          ><img src="assets/github.svg"
+        /></a>
+        <a href="tel:+420725156586"><img src="assets/phone.svg" /></a>
+        <a href="mailto:michal.forman@proton.me"
+          ><img src="assets/email.svg"
+        /></a>
+      </div>
+      <div id="ageContainer">
+        <h2 id="ageTxt"></h2>
+        <h2>yo</h2>
+      </div>
     </div>
-    <div id="social-media">
-      <a href="https://www.linkedin.com/in/michal-forman/" target="_blank">
-        <img src="assets/linkedin.png" />
-      </a>
-      <a href="https://github.com/Michal-Forman" target="_blank">
-        <img src="assets/github.png" />
-      </a>
-      <a href="https://www.instagram.com/michal_forman_/" target="_blank">
-        <img src="assets/instagram.png" />
-      </a>
-    </div>
-    <div id="links-holder">
-      <a href="https://portfolio.michal-forman.com" target="_blank">
-        <div><h3>Portfolio</h3></div>
-      </a>
-      <a href="https://bakers-paradise-shop.com" target="_blank">
-        <div><h3>Baker's Paradise</h3></div>
-      </a>
+    <div id="cardsContainer">
+      <div>
+        <a href="https://portfolio.michal-forman.com/">
+          <h2>Portfolio</h2>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.bakersparadise.cz/">
+          <h2>Baker's Paradise</h2>
+        </a>
+      </div>
+      <div>
+        <a href="https://svobodni.cz/">
+          <h2>Svobodní</h2>
+        </a>
+      </div>
     </div>
   </body>
-  <script src="main.js"></script>
+  <script src="./main.js"></script>
 </html>

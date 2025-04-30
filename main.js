@@ -15,5 +15,5 @@ function calculateMyAge() {
   return age;
 }
 
-let ageSpan = document.getElementById("calculated-age");
-ageSpan.textContent = calculateMyAge();
+let ageTxt = document.getElementById("ageTxt");
+ageTxt.textContent = calculateMyAge();
