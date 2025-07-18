@@ -12,6 +12,7 @@
   --green: #1dcd9f;
   --white: #fafafa;
 }
+/* alt green: #008C72 */
 
 body {
   background-color: var(--gray);
